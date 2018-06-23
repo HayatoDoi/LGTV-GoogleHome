@@ -4,6 +4,7 @@ const express = require('express');
 let app = express();
 
 app.get('/LGTV/turnOn', function (req, res) {
+    console.log('LGTV:turnOn');
     wol.wake(config.LGTVMAC);
     res.send('ok');
 });
