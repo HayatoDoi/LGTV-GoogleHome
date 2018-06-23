@@ -1,0 +1,25 @@
+{
+  "name": "lgtvgooglehome",
+  "version": "1.0.0",
+  "description": "GoogleHomeを使ってLGスマートテレビを制御します。",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lgtv2": "^1.4.1",
+    "wake_on_lan": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HayatoDoi/LGTV-GoogleHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HayatoDoi/LGTV-GoogleHome/issues"
+  },
+  "homepage": "https://github.com/HayatoDoi/LGTV-GoogleHome#readme"
+}
